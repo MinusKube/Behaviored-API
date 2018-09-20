@@ -1,0 +1,4 @@
+group = 'fr.minuskube'
+version = '1.0.0'
+
+apply plugin: 'java'
