@@ -2,3 +2,13 @@ group = 'fr.minuskube'
 version = '1.0.0'
 
 apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven { url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.13-R0.1-SNAPSHOT'
+}
